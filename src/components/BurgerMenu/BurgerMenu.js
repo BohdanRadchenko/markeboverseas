@@ -13,13 +13,15 @@ const BurgerMenu = ({isOpen, handlerBurger}) => {
   window.addEventListener('scroll', () => {
     const offset = window.pageYOffset;
     const nav = document.querySelector(`.${css.container}`);
-   if (isOpen) {
-     if (offset > 200) {
-       nav.className = `${css.container} ${css.navFixed}`
-     } else {
-       nav.className = `${css.container}`
-     }
-   }
+    if (nav) {
+      if (isOpen) {
+        if (offset > 200) {
+          nav.className = `${css.container} ${css.navFixed}`
+        } else {
+          nav.className = `${css.container}`
+        }
+      }
+    }
   })
 
   return (

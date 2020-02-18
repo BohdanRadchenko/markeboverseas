@@ -1,0 +1,23 @@
+.container {
+    background-image: url('../../assets/img/bg.png');
+}
+
+.licensesWrapper {
+    width: 89%;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+.img {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../assets/img/licenses/licenses_2019 - 2020-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.img:last-child {
+    background-image: url('../../assets/img/licenses/licenses_2019 - 2020-2.jpg');
+}

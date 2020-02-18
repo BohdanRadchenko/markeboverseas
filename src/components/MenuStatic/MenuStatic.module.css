@@ -1,0 +1,68 @@
+.container {
+    position: fixed;
+    top: 0;
+    margin-top: 60px;
+    display: block;
+    width: 100%;
+    z-index: 9999;
+}
+
+.containerNone {
+    composes: container;
+    animation: moveIn 0.3s ease-in-out 1 alternate;
+    height: 0;
+    display: none;
+    opacity: 0;
+}
+
+.navFixed {
+    composes: container;
+    background-color: #475b6f;
+    opacity: 0.95;
+}
+
+.burgerWrapper {
+    display: block;
+    transition: all 1s linear;
+}
+
+.wrapFixed {
+    background-color: #475b6f;
+    opacity: 0.95;
+}
+
+.menuList {
+    box-sizing: border-box;
+    width: 89%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menuItem {
+    width: 30%;
+}
+
+.menuLink {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 0;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menuLink:hover {
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.03);
+}
+
+.activeLink {
+    color: #ffffff;
+}
