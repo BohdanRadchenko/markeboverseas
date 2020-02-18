@@ -82,3 +82,26 @@
 .activeLink {
     color: #ffffff;
 }
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .container {
+        max-width: 100%;
+        background-color: #475b6f;
+        padding: 20px 0;
+    }
+
+    .menuList {
+        display: block;
+        width: 100%;
+    }
+
+    .menuItem {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .menuLink {
+    }
+
+
+}
