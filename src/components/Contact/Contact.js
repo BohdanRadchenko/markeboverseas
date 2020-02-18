@@ -8,11 +8,7 @@ const Contact = () => {
     <Element name="contact" className="element">
       <div className={css.container}>
         <div className={css.info}>
-          <img
-            className={css.logo}
-            width={300}
-            height={300}
-            src="../../assets/img/imgonline-com-ua-Transparent-backgr-koWNgmQvujzU12.png" alt=""/>
+          <div className={css.logo}/>
           <div className={css.desc}>
             <p className={css.parag}>
               MARKEB OVERSEAS FZE

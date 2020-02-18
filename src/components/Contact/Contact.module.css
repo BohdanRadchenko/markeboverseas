@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 100px 0 0 0;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .info {
@@ -13,12 +13,12 @@
     margin: 0 auto;
 }
 
-
-
 .logo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: block;
+    background-image: url('../../assets/img/imgonline-com-ua-Transparent-backgr-koWNgmQvujzU12.png');
+    background-size: cover;
 }
 
 .desc {
