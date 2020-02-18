@@ -35,7 +35,7 @@ const  Home = () =>  {
             WELCOME
             </p>
             <p className={css.other}>
-            WE CAN DO BETTER THEN OTHERS
+            WE CAN DO BETTER THAN OTHERS
             </p>
           </div>
           <Link
