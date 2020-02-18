@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/markeboverseas/static/css/main.410517c3.chunk.css",
-    "main.js": "/markeboverseas/static/js/main.e57470ef.chunk.js",
-    "main.js.map": "/markeboverseas/static/js/main.e57470ef.chunk.js.map",
+    "main.css": "/markeboverseas/static/css/main.93969e57.chunk.css",
+    "main.js": "/markeboverseas/static/js/main.a3a648a4.chunk.js",
+    "main.js.map": "/markeboverseas/static/js/main.a3a648a4.chunk.js.map",
     "runtime-main.js": "/markeboverseas/static/js/runtime-main.6c4d1803.js",
     "runtime-main.js.map": "/markeboverseas/static/js/runtime-main.6c4d1803.js.map",
-    "static/js/2.73ab14c1.chunk.js": "/markeboverseas/static/js/2.73ab14c1.chunk.js",
-    "static/js/2.73ab14c1.chunk.js.map": "/markeboverseas/static/js/2.73ab14c1.chunk.js.map",
+    "static/js/2.43ff447d.chunk.js": "/markeboverseas/static/js/2.43ff447d.chunk.js",
+    "static/js/2.43ff447d.chunk.js.map": "/markeboverseas/static/js/2.43ff447d.chunk.js.map",
     "index.html": "/markeboverseas/index.html",
-    "precache-manifest.82e2bfbafa55aa1c27642167f062cb1e.js": "/markeboverseas/precache-manifest.82e2bfbafa55aa1c27642167f062cb1e.js",
+    "precache-manifest.81eea10e70ca400aa3a1ced0ba913339.js": "/markeboverseas/precache-manifest.81eea10e70ca400aa3a1ced0ba913339.js",
     "service-worker.js": "/markeboverseas/service-worker.js",
-    "static/css/main.410517c3.chunk.css.map": "/markeboverseas/static/css/main.410517c3.chunk.css.map",
-    "static/js/2.73ab14c1.chunk.js.LICENSE.txt": "/markeboverseas/static/js/2.73ab14c1.chunk.js.LICENSE.txt",
+    "static/css/main.93969e57.chunk.css.map": "/markeboverseas/static/css/main.93969e57.chunk.css.map",
+    "static/js/2.43ff447d.chunk.js.LICENSE.txt": "/markeboverseas/static/js/2.43ff447d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/markeboverseas/static/media/Georgia.b905fa45.eot",
     "static/media/Home.module.css": "/markeboverseas/static/media/imgonline-com-ua-Transparent-backgr-koWNgmQvujzU12.f6cb19a3.png",
     "static/media/ContactUs.module.css": "/markeboverseas/static/media/newsletter-bg.4320b2ba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6c4d1803.js",
-    "static/js/2.73ab14c1.chunk.js",
-    "static/css/main.410517c3.chunk.css",
-    "static/js/main.e57470ef.chunk.js"
+    "static/js/2.43ff447d.chunk.js",
+    "static/css/main.93969e57.chunk.css",
+    "static/js/main.a3a648a4.chunk.js"
   ]
 }
