@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    background-color: #475b6f;
+}
+
+.footer {
+    padding: 20px 0 ;
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
