@@ -30,15 +30,69 @@ const BurgerMenu = ({isOpen, handlerBurger}) => {
         <nav className={isOpen ? css.burgerWrapper : css.burgerWrapperNone}>
           <ul className={css.menuList}>
             <li className={css.menuItem}>
+
               <NavLink className={css.menuLink} activeClassName={css.activeLink}  to="/consulting/" >
                 project management Consulting
               </NavLink>
             </li>
+
+            {/*DROPDOWN*/}
             <li className={css.menuItem}>
               <NavLink className={css.menuLink} activeClassName={css.activeLink}  to="/trading/" >
                 general trading
+
               </NavLink>
+              <ul className={css.dropdownList}>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading equipments
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading household items
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading cars and Auto Parts
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading pharmaceutical products
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading agricultural products
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading Foods
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    trading industries items
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    creating and testing it products
+                  </NavLink>
+                </li>
+                <li className={css.dropdownItem}>
+                  <NavLink className={css.menuHoverLink} activeClassName={css.activeLink}  to="/trading/" >
+                    Trading computers and spare parts
+                  </NavLink>
+                </li>
+              </ul>
             </li>
+
+
+
             <li className={css.menuItem}>
               <NavLink className={css.menuLink} activeClassName={css.activeLink}  to="/licenses/" >
                 licenses
