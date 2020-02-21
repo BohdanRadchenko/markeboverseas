@@ -11,7 +11,7 @@ import './index.css';
 ReactDOM.render(
   <Provider store={store}>
     <App />
-    </Provider>,ap
+    </Provider>,
   // <BaseRouter basename='/'>
   // <Provider store={store}>
   //     <Route component={App}/>
