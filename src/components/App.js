@@ -7,7 +7,7 @@ function App() {
   return (
     // <Suspense fallback={<Loaders/>}>
     <Suspense>
-      <Router basename='/markeboverseas'>
+      <Router basename='/'>
         {routes}
       </Router>
     </Suspense>

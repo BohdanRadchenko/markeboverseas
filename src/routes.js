@@ -7,13 +7,13 @@ export const useRoutes = () => {
   return (
     <div>
       <Switch>
-        <Route path="/home/" exact >
+        <Route path="/home" exact >
           <HomePage/>
         </Route>
-        <Route path="/licenses/" exact >
+        <Route path="/licenses" exact >
           <LicensesPage/>
         </Route>
-        <Redirect to="/home/"/>
+        <Redirect to="/home"/>
       </Switch>
     </div>
   )

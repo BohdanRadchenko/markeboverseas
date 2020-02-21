@@ -10,8 +10,6 @@ import css from './Home.module.css'
 
 const  Home = () =>  {
 
-  console.log(window)
-
   window.addEventListener('scroll', () => {
     const link = document.querySelector(`.${css.link}`);
     if (link) {
